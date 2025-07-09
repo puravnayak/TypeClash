@@ -10,7 +10,7 @@ import profileRoutes from "./routes/profile.js";
 import historyRoutes from "./routes/history.js";
 import User from "./models/User.js";
 import { calculateElo } from "./utils/elo.js";
-import { generateBattleText } from "../src/utils/generateBattleText.js";
+import { generateBattleText } from "../client/src/utils/generateBattleText.js";
 import tipsRoutes from "./routes/tips.js";
 
 dotenv.config();
